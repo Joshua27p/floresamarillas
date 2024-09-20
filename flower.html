@@ -9,12 +9,27 @@
     <title>Feliz 21 de Septiembre</title>
   </head>
   <body class="container">
-    <audio autoplay>
-      <source
-        src="./sound/floricienta_flores_amarillas.mp3"
-        type="audio/mpeg"
-      />
-    </audio>
+    <audio
+      id="audioPlayer"
+      src="./sound/floricienta_flores_amarillas.mp3"
+      type="audio/mpeg"
+    ></audio>
+    <script>
+      function isIOS() {
+        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      }
+
+      const audioElement = document.getElementById("audioPlayer");
+
+      if (isIOS()) {
+        // Para dispositivos iOS, agregar controles en lugar de autoplay
+        audioElement.setAttribute("controls", "controls");
+      } else {
+        // En otros dispositivos, permitir autoplay
+        audioElement.setAttribute("autoplay", "autoplay");
+        audioElement.play();
+      }
+    </script>
     <div id="lyrics"></div>
 
     <h1 class="titulo">

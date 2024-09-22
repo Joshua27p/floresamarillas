@@ -20,7 +20,9 @@ body {
   background-color: transparent;
   border: none;
 }
-
+button.botones {
+  transition: all 0.5s ease;
+}
 .botones a {
   background-color: #728327;
   padding: 9px;
@@ -34,6 +36,9 @@ body {
 .botones a:focus {
   background-color: rgb(50, 194, 194);
 }
+.botones:hover {
+  transform: scale(1.2);
+}
 
 .greetings {
   font-size: 7rem;
@@ -45,8 +50,8 @@ body {
 @keyframes glow {
   0%,
   100% {
-    color: #fff;
-    text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    color: #145930;
+    text-shadow: 0 0 12px #145930, 0 0 50px #145930, 0 0 100px #145930;
   }
   10%,
   90% {
@@ -68,6 +73,12 @@ body {
 }
 .greetings > span:nth-child(6) {
   animation-delay: 1s;
+}
+.greetings > span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+.greetings > span:nth-child(8) {
+  animation-delay: 1.4s;
 }
 
 .description {

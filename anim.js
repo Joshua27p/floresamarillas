@@ -9,8 +9,7 @@ var lyricsData = [
   { text: "Es este viernes 27 de septiembre", time: 7 },
   { text: "Habrá SOLO ron, PERO TRAE MÁS", time: 11 },
   { text: "HARTO PERREO Y CHOCOLATE", time: 14 },
-  { text: "EL AUFIT CON CAMISETA ", time: 18 },
-  { text: " DE TU EQUIPO FAVORITO", time: 18 },
+  { text: "EL AUFIT CON CAMISETA DE TU EQUIPO FAVORITO", time: 18 },
   { text: "No te portes mal.", time: 21 },
   { text: "SIN MÍ.", time: 24 },
 ];

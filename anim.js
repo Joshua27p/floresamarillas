@@ -11,7 +11,7 @@ var lyricsData = [
   { text: "HARTO PERREO Y CHOCOLATE", time: 14 },
   { text: "EL AUFIT CON CAMISETA DE TU EQUIPO FAVORITO", time: 18 },
   { text: "No te portes mal.", time: 21 },
-  { text: "SIN MÍ GAA.", time: 24 },
+  { text: "SIN MÍ.", time: 24 },
 ];
 
 // Animar las letras

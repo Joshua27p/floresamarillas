@@ -30,6 +30,11 @@ body {
   font-weight: bold;
   letter-spacing: 4px;
 }
+#gif {
+  display: none;
+  margin-bottom: 10rem;
+  width: 10rem;
+}
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {

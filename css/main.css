@@ -35,11 +35,11 @@ body {
 }
 #gif {
   display: none;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   width: 15rem;
   position: absolute;
   bottom: 0;
-  left: 100px;
+  left: 500px;
 }
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
